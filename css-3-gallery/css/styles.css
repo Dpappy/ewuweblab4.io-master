@@ -6,13 +6,7 @@ Inheriting Ben Schwarz's CSS Gallery */
 
 /* Customize the dimensions of your gallery & thumbnails */
 /* Override Inherited Size from Grid System  */
-.main-header{
-  
-  margin: 0 auto;
-  width: 100%; /*1000px/ 1000px=1 */
-    background-color: black;
-    height: 100px;
-}
+
 a:hover {
   border-radius: 10px;
   
@@ -20,12 +14,7 @@ a:hover {
   transition: all .5s;
   background: -webkit: 
 }
-body {
-  background-image: url("../img/zoom2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: fixed;
-        }
+
 
 li {
   float: left;
@@ -37,7 +26,7 @@ a:link {
     
    color: white;
   border: 50px;
-  display: inline-block;
+  display: inline;
   line-height: 50px;
   text-align: center;
   text-decoration: none;
@@ -46,9 +35,6 @@ a:link {
   width: 100px;
     background: none;
 align-content:top;
-}
-h1, nav {
-    align-content: top;
 }
 
 
@@ -73,7 +59,7 @@ h3 {
 
 /* Use :nth-child to add borders to 1st, 2nd, 3rd */
 li:nth-child(1) a {
-  display: inline-block;
+  display: inline;
   border: none;}
 
 li:nth-child(2) a {
@@ -108,4 +94,9 @@ li:nth-child(3) a {
     width: 60%;
     top-margin:120px;
     left-margin:100px;
-    
+ body {
+  background-image: url("../img/zoom2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+        }   

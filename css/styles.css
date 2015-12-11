@@ -6,10 +6,6 @@
      
  }
 
-
-
-
-
 /* Layout */
 
 main.header{
@@ -113,12 +109,12 @@ h1, nav {
     position:top;
 }
 
-img {width:40%;
-padding: 40px;
+img {width:35%;
+
     align: left;
-    border: black;
-    border-color: black;
-    margin-top: 60px; 
+    border: 70px solid black;
+    margin-top: 100px; 
+    margin-left: 70px;
 }
 
 .main-header{
