@@ -1,0 +1,107 @@
+/* Global */
+
+ body {
+      width: 100%;
+     margin:auto;
+     
+ }
+
+
+
+
+
+/* Layout */
+
+main{
+  
+  margin: 0 auto;
+  width: 100%; /*1000px/ 1000px=1 */
+}
+grid.container{
+h1 {
+    margin: 55px;
+    display:inline-block;
+    height: 50px;
+float:top;}
+
+li
+;}
+p 
+{
+  float:right;
+    color:white;
+  
+    text-align: left;
+  background:black;
+  padding: 50px; /* 10px / 560px = 0.01785714285714 */
+  margin: 1%; /* 10px / 1000px = .01 */
+  width: 30%; /* 560px / 1000px = .56 */
+}
+
+
+
+/* Typography */
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align:center;
+    font-size:3em;
+    display: inline-block;
+    background:black;
+    padding: 8px;
+}
+
+
+/* Navigation */
+ 
+li {
+  float: left;
+  list-style: none;
+}
+a:link {
+    
+   color: white;
+  border: 50px;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3em;
+  height: 50px;
+  width: 100px;
+    background: black;
+
+}
+
+a:hover {
+  border-radius: 10px;
+  margin-top: 20px;
+  color: darkred;
+  transition: all .5s;
+  background: -webkit: 
+}
+body {
+  background-image: url("../img/zoom2.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: fixed;
+        }
+}
+p {
+   color: red;
+    background: black;
+    border: none;
+    padding: 50px;
+    width: 200px;
+    
+}
+
+h1, nav {
+    align-content: top;
+}
+
+img {width:50%;
+padding: 50px;
+}
