@@ -12,6 +12,7 @@ Inheriting Ben Schwarz's CSS Gallery */
 }
 .item {
   text-align: center;
+    text-color: white;
 }
 
 .item img {
