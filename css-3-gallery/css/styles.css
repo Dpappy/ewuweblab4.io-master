@@ -1,13 +1,23 @@
 /* Gallery Styling */
+/* Included CSS
+  * Including TreeHouse Grid System 
+  * URL: 
+Inheriting Ben Schwarz's CSS Gallery */
+
+/* Customize the dimensions of your gallery & thumbnails */
+/* Override Inherited Size from Grid System  */
+
 .gallery {
-    
-    height: 500px;
+  height: 500px;
+}
+.item {
+  text-align: center;
 }
 
-.gallery.item {
-    background: green;
+.item img {
+  width: 400px;  
 }
 
-.controls img:hover {
-    outline: 5px solid red;
+.controls img {
+  width: 50px;
 }
