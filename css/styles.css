@@ -87,7 +87,7 @@ a:link {
 
 a:hover {
   border-radius: 10px;
-  margin-top: 20px;
+  
   color: darkred;
   transition: all .5s;
   background: -webkit: 
@@ -110,6 +110,7 @@ p {
 
 h1, nav {
     align-content: top;
+    position:top;
 }
 
 img {width:40%;
@@ -121,8 +122,8 @@ padding: 40px;
 }
 
 .main-header{
-  
-  margin: 0 auto;
+ 
+  position:top;
   width: 100%; /*1000px/ 1000px=1 */
     background-color: black;
 }
