@@ -31,18 +31,21 @@ li
 .primary-content {
     
     padding: 50px 50px; 
+    width: 100%;
+    height: 500px;
 }
 
 p 
 {
-  float:right;
+  float: right;
     color:white;
   
     text-align: left;
   background:black;
   padding: 50px; /* 10px / 560px = 0.01785714285714 */
-  margin: 1%; /* 10px / 1000px = .01 */
+  margin: 100px 50px; /* 10px / 1000px = .01 */
   width: 30%; /* 560px / 1000px = .56 */
+    height: 200px;
 }
 
 
@@ -91,8 +94,8 @@ a:hover {
 }
 body {
   background-image: url("../img/zoom2.jpg");
-    background-size: 100%;
-    background-repeat: repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: fixed;
         }
 }
@@ -110,7 +113,10 @@ h1, nav {
 }
 
 img {width:50%;
-padding: 50px;
+padding: 40px;
+    align: left;
+    border: 10px;
+    border-color: black;
 }
 
 .main-header{

@@ -9,6 +9,7 @@ Inheriting Ben Schwarz's CSS Gallery */
 
 .gallery {
   height: 500px;
+    
 }
 .item {
   text-align: center;
@@ -20,5 +21,14 @@ Inheriting Ben Schwarz's CSS Gallery */
 }
 
 .controls img {
-  width: 50px;
+  width: 200px;
+    margin: 20px;
+   
 }
+.control-item {
+    position: bottom;
+    align: bottom;
+    color:white;
+}
+
+item-1 {}
