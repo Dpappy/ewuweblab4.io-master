@@ -7,28 +7,64 @@ Inheriting Ben Schwarz's CSS Gallery */
 /* Customize the dimensions of your gallery & thumbnails */
 /* Override Inherited Size from Grid System  */
 
-.gallery {
-  height: 500px;
+li {
+  float: left;
+  list-style: none;
+  margin: 5px;
     
 }
-.item {
-  text-align: center;
-    text-color: white;
+
+img {width:10%}
+
+
+h3 {
+  clear: left;
 }
 
-.item img {
-  width: 400px;  
+.fullsize {
+  position: relative;
+    
 }
 
-.controls img {
-  width: 200px;
-    margin: 20px;
-   
-}
-.control-item {
-    position: bottom;
-    align: bottom;
-    color:white;
+.fullsize img {
+  position: absolute;
+  top: 40px;
+  left: 40px;
 }
 
-item-1 {}
+/* Use :nth-child to add borders to 1st, 2nd, 3rd */
+li:nth-child(1) a {
+  display: inline-block;
+  border: none;}
+
+li:nth-child(2) a {
+  display: inline-block;
+  border: none;}
+
+li:nth-child(3) a {
+  display: inline-block;
+  border: 5px none;}
+
+/* Change Borders of Full Size Images */ 
+#fullsize-1:target {
+  border: 20px solid black;
+  z-index: 1;
+}
+#fullsize-2:target {
+  border: 20px solid black;
+  z-index: 2;
+}
+#fullsize-3:target {
+  border: 20px solid black;
+  z-index: 3;
+}
+/*Fancify */
+.fullsize img {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fullsize img:target {
+  opacity: 1;
+    width: 70%;
+}
