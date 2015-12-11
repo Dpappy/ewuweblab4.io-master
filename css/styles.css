@@ -112,11 +112,12 @@ h1, nav {
     align-content: top;
 }
 
-img {width:50%;
+img {width:40%;
 padding: 40px;
     align: left;
-    border: 10px;
+    border: black;
     border-color: black;
+    margin-top: 60px; 
 }
 
 .main-header{
