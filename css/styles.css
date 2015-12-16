@@ -18,7 +18,7 @@ main.header{
 h1 {
     margin: 55px;
     display:inline-block;
-    height: 50px;
+    height: 60px;
 float:top;}
 
 li
@@ -63,6 +63,7 @@ h1 {
     display: inline-block;
     background:black;
     padding: 8px;
+    margin-top: 50px;
 }
 
 
@@ -85,6 +86,7 @@ a:link {
   text-decoration: none;
   margin: 3em;
   height: 50px;
+    margin-top: 50px;
   width: 100px;
     background: black;
 
@@ -99,9 +101,14 @@ a:hover {
 }
 body {
   background-image: url("../img/zoom2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: fixed;
+    border: 20px solid black;
+    background-width:100%;
+    background-size: 500px;
+    background-repeat: repeat-x;
+    background-position: top;
+   
+    
+    background-color: #2ef08f;
         }
 }
 p {
@@ -131,7 +138,7 @@ img {width:35%;
 }
 
 .main-header{
- 
+ margin-top: 200px;
   position:top;
   width: 100%; /*1000px/ 1000px=1 */
     background-color: black;
